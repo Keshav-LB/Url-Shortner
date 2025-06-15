@@ -1,8 +1,19 @@
 HELP.md
+
+.mvn/
+mvnw
+mvnw.cmd
+
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+.gitattributes
+
+# Environment files
+.env
+.env.prod
 
 ### STS ###
 .apt_generated
